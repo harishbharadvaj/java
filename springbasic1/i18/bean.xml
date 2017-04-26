@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean name="father" class="com.basic.main.Father">
+		<property name="fatherName" value="HSB">
+		</property>
+	</bean>
+	
+	<bean name="father1" class="com.basic.main.Father">
+		<property name="fatherName" value="HSB1">
+		</property>
+	</bean>
+	
+	<bean name="son" class="com.basic.main.Son">
+		<property name="sonName" value="Hari" />
+		<property name="father" ref="father1" />	
+	</bean>
+</beans>
