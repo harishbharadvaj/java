@@ -1,0 +1,1 @@
+<jsp:forward page="home.go"></jsp:forward>
