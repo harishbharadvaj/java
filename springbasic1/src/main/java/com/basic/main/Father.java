@@ -3,6 +3,7 @@ package com.basic.main;
 public class Father {
 
 	private String fatherName;
+	private String test;
 
 	public String getFatherName() {
 		return fatherName;
